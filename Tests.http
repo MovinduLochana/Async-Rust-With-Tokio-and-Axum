@@ -1,0 +1,41 @@
+
+### Hello
+GET http://localhost:8080
+
+### Query Params
+GET http://localhost:8080/params?name=movindu
+
+### Path Params
+GET http://localhost:8080/path/movindu
+
+### File Params
+GET http://localhost:8080/static_files/src/main.rs
+
+### Login
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "username": "movindu",
+  "password": "mypass"
+}
+
+### Create Ticket
+POST http://localhost:8080/api/tickets
+Content-Type: application/json
+#Cookie: auth-token=usgger-1.exp.sign
+# @no-cookie-jar
+
+{
+  "title": "Ticketxx"
+}
+
+### Get Tickets
+GET http://localhost:8080/api/tickets
+# @no-cookie-jar
+
+### Delete Ticket
+DELETE http://localhost:8080/api/tickets/6
+
+
+
