@@ -17,8 +17,6 @@ This Rust project showcases the development of a web service using `Axum` and `T
 - [Usage](#usage-how-to-use-💡)
 - [Project Structure](#project-structure-📂)
 - [API Reference](#api-reference-🔗)
-- [Contributing](#contributing-🤝)
-- [License](#license-⚖️)
 - [Important Links](#important-links-🔗)
 - [Footer](#footer-®️)
 
@@ -209,18 +207,6 @@ Deletes a specific ticket by its ID.
 
 **Note:** All `/api` routes related to tickets require authentication.
 
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to:
-
--   Fork the repository.
--   Create a new branch for your feature or bug fix (`git checkout -b feature/YourFeature` or `git checkout -b fix/YourBug`).
--   Make your changes and commit them (`git commit -m 'Add YourFeature'`).
--   Push to the branch (`git push origin feature/YourFeature`).
--   Open a Pull Request.
-
-Please ensure your code follows the existing style and includes tests where appropriate.
-
 ## Important Links 🔗
 
 -   **Repository:** [Async-Rust-With-Tokio-and-Axum](https://github.com/MovinduLochana/Async-Rust-With-Tokio-and-Axum)
@@ -230,4 +216,4 @@ Please ensure your code follows the existing style and includes tests where appr
 
 This project is maintained by [MovinduLochana](https://github.com/MovinduLochana).
 
-Feel free to ⭐ star, 🍴 fork, and 📈 check out the issues for this repository!
+Feel free to ⭐ star and 🍴 fork this repository!
